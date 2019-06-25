@@ -9,4 +9,5 @@
 <% most_common_letter = @analyzed_text.most_used_letter %>
 <% most_common_letter.each do |key, value| %>
   <h2>Most Common Letter: <%=key%>, used <%=value%> times</h2>
+  <% binding.pry %>
 <% end %>
